@@ -1,6 +1,15 @@
-#include "PPPheaders.h"
-int main (){
-cout << "My very first C++ Program.";
+//Errors
+// this program only allows ages up to a certain maximum age
 
-    return 0;
+int age;
+
+int main (){
+    cout << "Enter your age: \n";
+    cin >> age;
+
+    if (age> MAX_AGE){
+        error(s: "Your age is out of bounds")
+    }
+
+
 }
